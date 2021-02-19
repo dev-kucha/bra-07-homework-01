@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    margin-bottom: 108px;
+    padding-top: 100px;
+}
+
+.container {
+    width: 940px;
+    display: block;
+    margin: auto;
+}
+
+.who {
+    /* Style for "who we are" */
+    color: #898f99;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    /* Text style for "who we are" */
+    letter-spacing: 4.8px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1 {
+    /* Style for "Hello & Na" */
+    color: #0ec8cb;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    /* font-weight: 500; */
+    font-style: normal;
+    text-transform: uppercase;
+        /* Text style for "H, ello &" */
+    letter-spacing: 4.8px;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto 44px;
+}
+
+.introduction {
+    /* Style for "We do not" */
+    width: 513px;
+    color: #999999;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "We do not" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+section .container {
+    font-size: 0;
+    margin-bottom: 50px;
+}
+
+.iconbox {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 0px 15px 0px;
+    /* Style for "Rectangle" */
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+    vertical-align:top ;
+}
+
+.svg-box {
+    display: block;
+    height: 200px;
+    line-height: 200px;
+}
+
+svg {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.h2-box {
+    height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+h2 {
+    /* Style for "web design" */
+    color: #1b1b1b;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    /* font-weight: 400; */
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "web design" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 33px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+p.iconbox-text {
+    /* Style for "Fresh, liv" */
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    /* Text style for "F, resh, l" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.iconbox:hover {
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+}
+
+.iconbox:hover h2 {
+    color: #ffffff;
+}
+
+.iconbox:hover p {
+    color: #ffffff;
+}
+
+.iconbox:hover path {
+    fill: #ffffff;
+}
